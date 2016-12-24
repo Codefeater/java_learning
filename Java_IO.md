@@ -85,12 +85,12 @@ API:getFilePointer
      对象必须实现序列化接口 ，才能进行序列化，否则将出现异常    
      这个接口，没有任何方法，只是一个标准
    
-  4) transient关键字
-      private void writeObject(java.io.ObjectOutputStream s)  
+  4) transient关键字    
+      private void writeObject(java.io.ObjectOutputStream s)    
               throws java.io.IOException
                 
       private void readObject(java.io.ObjectInputStream s)  
-              throws java.io.IOException, ClassNotFoundException
+              throws java.io.IOException, ClassNotFoundException    
   
      分析ArrayList源码中序列化和反序列化的问题
 
