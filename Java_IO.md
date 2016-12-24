@@ -74,8 +74,7 @@ API:getFilePointer
      BufferedReader   ----> readLine 一次读一行
      BufferedWriter/PrintWriter   ----> 写一行    
 
-
- ## 对象的序列化，反序列化   
+## 对象的序列化，反序列化   
   
   1) 对象序列化，就是将Object转换成byte序列，反之叫对象的反序列化   
      
