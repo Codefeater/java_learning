@@ -20,11 +20,16 @@ API:getFilePointer
 1. 字节流
   1). InputStream抽象了应用程序读取数据的方式
       OutputStream抽象了应用程序写出数据的方式
+        
   2). EOF = End 读取 -1 就读到结尾
+    
   3). 输入流
     int b = in.read(),读取一个字节无符号填充到int低八位
     in.read(byte[] buf) 读取数据填充到字节数组buf
+      
   4). 输出流
     out.write(int b) 写出一个byte到流，b的低八位
     out.write(byte[] buf) 将buf字节数组写入到到流
+      
   5). FileInputStream ---具体在文件上实现了读取数据
+    
