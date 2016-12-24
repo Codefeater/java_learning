@@ -1,6 +1,7 @@
 ## Files.io.File
+
 File类只用于表示文件（目录）的信息（名称，大小等），不能用于文件内容的访问
------------------
+
 API : isFile,isDirectory，exists,mkdir,createNewFile,
 ## RandomAccessFile
 Java提供对文件内容的访问，既可以读文件，也可以写文件，RandomAccessFile支持随机访问文件，可以访问文件的任意位置
