@@ -19,7 +19,7 @@ API:getFilePointer
 ##  Java IO
 1. 字节流
    
-  1). InputStream抽象了应用程序读取数据的方式
+  1). InputStream抽象了应用程序读取数据的方式  
       OutputStream抽象了应用程序写出数据的方式
         
   2). EOF = End 读取 -1 就读到结尾
@@ -35,3 +35,15 @@ API:getFilePointer
   5). FileInputStream ---具体在文件上实现了读取数据
   
   6). FileOutputStream 实现了向文件中写出byte数据的方法
+
+  7). DataOutputStream/DataInputStream   
+      对“流”功能的扩展，更加方便读取int,long,字符等类型的数据  
+      DataOutputStream  
+        writeInt()/writeDouble()/WriteUTF()  
+        
+  8). 待缓冲的字节流  
+      BufferedInputStream/BufferedOutputStream  
+      这来那个刘类为IO提供了带缓冲的操作，一般打开文件进行写入或读取操作是，都会加上缓冲，这种流模式提高了IO的性能，从应用程序中把输入放入文件，相当       于将一缸水倒入另外一个缸中   
+      FileOutputStream   --> write()方法相当于一滴一滴将水转移出去
+      DataOutputStream   --> writeXXX() 方法方便一些  
+      BufferedOutputStream   --> write方法更方便
