@@ -33,4 +33,5 @@ API:getFilePointer
     out.write(byte[] buf) 将buf字节数组写入到到流
       
   5). FileInputStream ---具体在文件上实现了读取数据
-    
+  
+  6). FileOutputStream 实现了向文件中写出byte数据的方法
