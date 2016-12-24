@@ -43,7 +43,9 @@ API:getFilePointer
         
   8). 待缓冲的字节流  
       BufferedInputStream/BufferedOutputStream  
-      这来那个刘类为IO提供了带缓冲的操作，一般打开文件进行写入或读取操作是，都会加上缓冲，这种流模式提高了IO的性能，从应用程序中把输入放入文件，相当       于将一缸水倒入另外一个缸中   
+      这来那个刘类为IO提供了带缓冲的操作，一般打开文件进行写入或读取操作是，都会加上缓冲，这种流模式提高了IO的性能，从应用程序中把输入放入文件，相当
+      于将一缸水倒入另外一个缸中   
+      
       FileOutputStream   --> write()方法相当于一滴一滴将水转移出去
       DataOutputStream   --> writeXXX() 方法方便一些  
       BufferedOutputStream   --> write方法更方便
