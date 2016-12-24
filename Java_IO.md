@@ -86,6 +86,7 @@ API:getFilePointer
      这个接口，没有任何方法，只是一个标准
    
   4) transient关键字    
+  
       private void writeObject(java.io.ObjectOutputStream s)    
               throws java.io.IOException
                 
