@@ -81,8 +81,8 @@ API:getFilePointer
   2) 序列化流(ObjectOutputStream),是过滤流----writeObject
      反序列化流(ObjectInputStream)---readObject
    
-  3) 序列化接口(Serializable)
-     对象必须实现序列化接口 ，才能进行序列化，否则将出现异常
+  3) 序列化接口(Serializable)   
+     对象必须实现序列化接口 ，才能进行序列化，否则将出现异常    
      这个接口，没有任何方法，只是一个标准
    
   4) transient关键字
