@@ -18,6 +18,7 @@ API:getFilePointer
 -----------------
 ##  Java IO
 1. 字节流
+   
   1). InputStream抽象了应用程序读取数据的方式
       OutputStream抽象了应用程序写出数据的方式
         
