@@ -36,7 +36,7 @@ API:getFilePointer
   
   6). FileOutputStream 实现了向文件中写出byte数据的方法
 
-  7). DataOutputStream/DataInputStream   
+  7). DataOutputStream/DataInputStream    
       对“流”功能的扩展，更加方便读取int,long,字符等类型的数据  
       DataOutputStream  
         writeInt()/writeDouble()/WriteUTF()  
