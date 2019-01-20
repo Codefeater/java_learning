@@ -27,7 +27,7 @@ public class Quick {
 	private static void exch(int[] a, int i, int j){
 		int t = a[i]; a[i] = a[j]; a[j] = t;
 	}
-
+# 测试
 	public static void main(String[] args) {
 		int[] testcase = new int[]{10,2,3,6,3,2,5,7,4,10,2,3,6,3,2,5,7,4,31,41,41,2,43,5,4,6,7,5};
 		Quick.sort(testcase);
